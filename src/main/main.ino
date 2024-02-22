@@ -1,14 +1,14 @@
-#include "util/pins.h"
+#include "pins.h"
 
 void setup() 
 {
-    pinMode(LED_BUILTIN, OUTPUT);
+    setup_pins();
 }
 
 void loop() 
 {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000); 
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(SYSTEM_LED, LOW);
     delay(1000);
+    digitalWrite(SYSTEM_LED, HIGH);
+    delay(4000);
 }
