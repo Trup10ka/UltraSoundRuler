@@ -1,7 +1,7 @@
 #include "pins.h"
 #include <Arduino.h>
 
-int displayPins[] = {
+static int displayPins[] = {
     PIN_D0,
     PIN_D1,
     PIN_D2,
@@ -13,7 +13,7 @@ int displayPins[] = {
     PIN_RX
 };
 
-void config_system_led()
+static void config_system_led()
 {
     pinMode(SYSTEM_LED, OUTPUT);
     digitalWrite(SYSTEM_LED, HIGH);
