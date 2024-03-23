@@ -7,6 +7,7 @@ extern "C" {
 
 #define PINS_H
 
+/* These pins pair are specific for ESP 8266 */
 #define PIN_D0 16
 #define PIN_D1 5
 #define PIN_D2 4
@@ -21,6 +22,9 @@ extern "C" {
 
 void setup_pins();
 
+/* These defines are for YOU to be customised. You may have different circuit wiring and program operates with these macros, for easier adjustments */
+#define ULTRASOUND_TRIG PIN_D1
+#define ULTRASOUND_ECHO PIN_D0
 
 #ifdef __cplusplus
 }
