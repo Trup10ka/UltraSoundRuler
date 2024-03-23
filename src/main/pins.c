@@ -1,18 +1,6 @@
 #include "pins.h"
 #include <Arduino.h>
 
-static int displayPins[] = {
-    PIN_D0,
-    PIN_D1,
-    PIN_D2,
-    PIN_D3,
-    PIN_D5,
-    PIN_D6,
-    PIN_D7,
-    PIN_D8,
-    PIN_RX
-};
-
 static void config_system_led()
 {
     pinMode(SYSTEM_LED, OUTPUT);
