@@ -5,14 +5,10 @@
 extern "C" {
 #endif
 
+#include "type.h"
+
 #define SPEED_OF_SOUND_IN_CM 0.034
 #define SPEED_OF_SOUND_IN_INCH 0.0134
-
-typedef struct ParseType
-{
-    char name[10];
-    float parseValue;
-} ParseType;
 
 void trigger_measure();
 
