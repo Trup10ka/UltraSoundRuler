@@ -23,8 +23,11 @@ extern "C" {
 void setup_pins();
 
 /* These defines are for YOU to be customised. You may have different circuit wiring and program operates with these macros, for easier adjustments */
-#define ULTRASOUND_TRIG PIN_D1
-#define ULTRASOUND_ECHO PIN_D0
+#define ULTRASOUND_TRIG PIN_D6
+#define ULTRASOUND_ECHO PIN_D5
+
+#define LCD_SDA PIN_D2
+#define LCD_SCL PIN_D1
 
 #ifdef __cplusplus
 }
