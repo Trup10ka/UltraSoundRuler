@@ -1,9 +1,9 @@
 /*
 * When using 'johnrickman' library (https://github.com/johnrickman/LiquidCrystal_I2C), you have to know your LCD I2C address
 * 
-* This file server as a scanner for that address.
+* This file serves as a scanner for that address.
 *
-* This address is static for the device, so it is enough to run it once on your ESP
+* This address is static for the device, so it is enough to run it once on your device
 */
 
 #include <Wire.h>
