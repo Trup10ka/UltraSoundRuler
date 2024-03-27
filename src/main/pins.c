@@ -9,8 +9,8 @@ static void config_system_led()
 
 static void config_ultrasound_sensor_pins()
 {
-    pinMode(PIN_D0, INPUT);
-    pinMode(PIN_D1, OUTPUT);
+    pinMode(ULTRASOUND_ECHO, INPUT);
+    pinMode(ULTRASOUND_TRIG, OUTPUT);
 }
 
 void setup_pins()
