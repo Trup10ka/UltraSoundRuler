@@ -9,4 +9,4 @@
 
 void init_lcd();
 
-void print_distance(float distance);
+void print_distance(float distance, const char type[]);
